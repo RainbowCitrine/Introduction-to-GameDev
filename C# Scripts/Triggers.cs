@@ -9,6 +9,7 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("Oof"); 
     }
+    // Do not forget to check off trigger inside of collision within the engine
     void OnTriggerEnter2D(Collider2D other) 
     {
         Debug.Log("Hello?");
